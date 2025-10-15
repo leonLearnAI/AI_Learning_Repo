@@ -1,0 +1,13 @@
+name, date, money, type, remarks
+Jay,2022-01-01,consume,100000,formal
+Jay,2022-01-02,Income,300000,formal
+Jaje, 2022-01-01,Income,500000,formal
+Jaje, 2022-01-02,consume,100000,formal
+Jaje, 2022-01-03,Income,100000,formal
+Jaje, 2022-01-04,consume,50000,formal
+xueyou, 2022-01-01,100000,Income,formal
+xueyou, 2022-01-02,500000,Income,formal
+LiHong,2022-01-01,500000,consume,formal
+LiHong,2022-01-03,950000,income,formal
+Dehua, 2022-01-02,100000, consume,formal
+Dehua, 2022-01-03,consume,50000,formal

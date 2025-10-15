@@ -1,0 +1,10 @@
+my_tuple = ("Jay", 33, ["basketball", "singsing"])
+print(my_tuple)
+index = my_tuple.index(33)
+print(f"Age is at index {index}")
+name = my_tuple[0]
+print(name)
+hobby_remove = my_tuple[2].pop(0)
+print(f"Removed hobby {hobby_remove}")
+my_tuple[2].append("jumping")
+print(f"Added hobby, current hobbies are {my_tuple[2]}")
