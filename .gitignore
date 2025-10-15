@@ -1,0 +1,109 @@
+# =========================
+# macOS system files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Python / AI development
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# Databases and cache
+*.h5
+*.hdf5
+*.db
+*.sqlite3
+
+# Model files (large models should use Git LFS or external storage)
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# =========================
+# Frontend (Node / React / Vue)
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+.npm/
+.yarn/
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# =========================
+# Flutter / iOS / Android
+# =========================
+
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# iOS / Xcode
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+Pods/
+Podfile.lock
+
+# Android
+.gradle/
+.idea/
+*.iml
+local.properties
+android/app/google-services.json
+
+# =========================
+# IDE / Editor settings
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Data files (large data should be excluded)
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Keep only small sample data in notebooks or project folders
