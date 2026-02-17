@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html class="model" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>AI_Assistant</title>
+
+	<!-- JQUERY / UI / LAYOUT -->
+	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui-layout/jquery.layout-1.4.4.js"></script>
+	<link type="text/css" rel="stylesheet" href="lib/jquery-ui-layout/layout-default-1.4.4.css">
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="css/model.css">
+	<link type="text/css" rel="stylesheet" href="css/i18n.css">
+	<script type="text/javascript" src="js/model.js"></script>
+	<script type="text/javascript" src="js/url-polyfill.min.js"></script>
+</head>
+
+<body>
+	<!-- "ui-layout-north" class set (topbar) -->
+	<div class="ui-layout-north">
+		<nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<span class="navbar-brand">AI_Assistant</span>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#myModal" data-toggle="modal" class="go"><span class="i18n-about"></span></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<iframe name="view" class="ui-layout-center" src="id-7e9aeda1223c43deb913b8766a2be313/elements/model.html" scrolling="no"></iframe>
+
+	<div class="ui-layout-west">
+		<iframe name="element" class="ui-layout-south" src="elements/empty-element.html"  scrolling="no"></iframe>
+		<div class="ui-layout-center">
+			<div class="panel panel-default root-panel">
+				<div class="panel-heading root-panel-heading">
+					<b><span class="i18n-modeltree"></span></b>
+				</div>
+				<div class="panel-body root-panel-body">
+					<b><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/model.html" target="view">AI_Assistant</a></b>
+					<ul class="tree">
+					<!-- START OF STRINGTEMPLATE CODE -->
+						<li class="tree-folder sorted"><span class="i18n-model_content"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+							<ul>
+                                <li class="tree-folder "><span class="i18n-strategy"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+                                    <ul>
+                                    </ul>
+                                </li>
+								<li class="tree-folder "><span class="i18n-business_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li class="tree-folder "><span class="i18n-application_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+										<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Application Components </span>
+											<ul>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-a40cfb84733a4a2b9ca0c5bb873aa2d2.html" target="element"> CLI / Simple API </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-30c41c18cb2649b290fd2e81d9909bdc.html" target="element"> Data Generation </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-1dbd32ca06e34fb182bce55fe62119a8.html" target="element"> Event Bus </a></li>
+															<li class="tree-element  "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-86a12833b6c14f60951dc3bfba0f10dc.html" target="element"> Inference Service </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-6314b15788524e12919a69d9dc325507.html" target="element"> Monitoring &amp; Evaluation </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-abc8323eabf6463399001064e3a06001.html" target="element"> Training Pipeline </a></li>
+
+											</ul>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Data Objects </span>
+											<ul>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-83317e65da8442a68603061fac114a97.html" target="element"> Synthetic Tickets Dataset </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-4cdfe8dd822944938123179c05da4ad1.html" target="element"> Model Artifacts </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-8b0277d9e4cc45cda15c70c732226646.html" target="element"> Metrics / Logs </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-a821eab9795344038050042ac80a910c.html" target="element"> TF-IDF Vectorizer </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-7a4c1873366a467783eed53da1d96899.html" target="element"> Logistic Regression Model </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-c28ef2e1cf2a4a80b50450b2f51bb89a.html" target="element"> Ticket Text </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-5d5ab69a62cf4eae991bc5c5e80f1d5a.html" target="element"> Classification Event </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-a8460ec1adc543cfb6cde17ed07128dd.html" target="element"> Classification Events (TICKET_CLASSIFIED) </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-4b6bd4548b524aaea6157e413943b7ae.html" target="element"> Metrics (Acc/Prec/Rec/F1) </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-74ef7e5e1a1c436eb5c6648e9c2b49e6.html" target="element"> Confusion Matrix </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-6808466f7d3f4de0b9cb7a36a8d897cc.html" target="element"> Daily High-Priority Count </a></li>
+															<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-59c82c60ae8541a19d51e4795e4cc22e.html" target="element"> Drift Signal (Confidence Trend) </a></li>
+
+											</ul>
+											</li>
+									</ul>
+								</li>
+								<li class="tree-folder "><span class="i18n-technology_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+									</ul>
+								</li>
+								<li class="tree-folder "><span class="i18n-motivation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-7f7420afcdb34c1894cf5903e31245f6.html" target="element"> R1 Generate 200&#8211;500 synthetic tickets </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-087d093a10df4403a04bbc0b8a7bdae5.html" target="element"> R2 Train TF-IDF + Logistic Regression </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-cf7dfee4c748431db9a70faefbf8b152.html" target="element"> R3 Inference outputs category/priority/confidence </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-6bbf188ff94f4ee5b59a86dae37d0392.html" target="element"> R4 Event queue simulation (queue.Queue) </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-d04f3931c77b49ff8e67d29c581dd44d.html" target="element"> R5 Monitoring: metrics + confusion matrix + daily high-priority + drift </a></li>
+
+									</ul>
+								</li>
+								<li class="tree-folder "><span class="i18n-implementation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-a5ec8cb36f524f7d8fb256da5c7bd69a.html" target="element"> D1 dataset.csv/json </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-467a6b5c79564c118e39333270d6de80.html" target="element"> D2 model.pkl </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-b7da8dedc4824342a6ed7ac4ebef8d3f.html" target="element"> D3 vectorizer.pkl </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-187a8168e27e41e3b7b02d8112fed027.html" target="element"> D4 metrics.json/csv + confusion matrix </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-550e64072b244521a004fa69edb18c01.html" target="element"> D5 evaluation report (1&#8211;2 pages) </a></li>
+
+									</ul>
+								</li>
+								<li class="tree-folder "><span class="i18n-connectors"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element   "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-6e8a0fc1efab41e1be241298bda64434.html" target="element"> Grouping </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-e7c403a6b7a443ad8fd302557bee8d8d.html" target="element"> Monolithic Python Application </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-c9e35043a3c341a08c05669c72cd1525.html" target="element"> Offline Training Pipeline (TF-IDF + Logistic Regression) </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-283a5a04cee44f959b563d595ef60b23.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-4aa18f8d58b14750825be763dcac27bb.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-d432c50067d24c14bb5a1dbb5c05ccb1.html" target="element"> TF-IDF Vectorizer </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-a8e60f13e9894b6cb1b674f5d478477c.html" target="element"> Logistic Regression Model </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-ef478c3782c342cda387fb2ce7b456da.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-bdff4314793b4c4d8c5c054d71a3327e.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-a374b88256e647848d017a6c87576ff4.html" target="element"> Online Inference + Event Queue Simulation </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-113b28a9a90141e0acfdf514051bca18.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-b879441871a140779ec165de35af4d21.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-da04b10787da43f6a9d8a6c4c44d71fa.html" target="element"> Monitoring &amp; Evaluation Outputs </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-245f35743b604a4a8f3c371ef48f4d24.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-46c7d19115a14e5cb906be8de8527e07.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-8daac6af53e24d62a25c32d6e7fdb764.html" target="element"> Requirements &#8594; Components &#8594; Deliverables (SDLC/JIRA Traceability) </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-6f56460e89434140afde0a5aecf8c85c.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-e40349f974b34228a53aa7867c1e31bd.html" target="element">  </a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-21c6678d1ef9476c9a4647d00aad09c4.html" target="element">  </a></li>
+
+									</ul>
+								</li>
+								<li class="tree-folder "><span class="i18n-relations"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+									<ul>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-d435285971c34275a3540caa7ba089ab.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(Inference Service - Event Bus) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-ae3fc729579645738d2f01b0bd33c813.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Monitoring &amp; Evaluation - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-b955acb4a9984d598138b6cff58fdda0.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Data Generation - Synthetic Tickets Dataset) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-83288fed83de48268a6b38bd7de38f1d.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Training Pipeline - Model Artifacts) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-d6cd267b9b5945caa1168bbd6198b305.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Offline Training Pipeline (TF-IDF + Logistic Regression) - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-e42885bcf0584c38aa533d57d353cced.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Data Generation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-fc6b405d7212419fb6db17e8c8439208.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Monitoring &amp; Evaluation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-b2f0d6de6d0b46ee997d3b9288cbb586.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Training Pipeline) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-71ede41b72c74322956f87e3454fd906.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Offline Training Pipeline (TF-IDF + Logistic Regression) - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-1ce01bc07b3344c584bc4459226d30fe.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-0a9634345c8d440782d4778acbb0f5c9.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Model Artifacts) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-6d4abcd0a978442492f9b7bc14053c86.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Synthetic Tickets Dataset) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-4da19ff442d8424b8dae829359210a64.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - TF-IDF Vectorizer) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-69ac2e9e7ba146c29abc5339ab8b9ccc.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Logistic Regression Model) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-0666cb334085487893f3d0ce9d184a9b.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Offline Training Pipeline (TF-IDF + Logistic Regression) - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-2b153b3b29624270b9b9473c8fa83e3f.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Synthetic Tickets Dataset) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-51da0bfab8c148dba5df0eb40f03e63d.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Training Pipeline) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-e342c4c122af44f1a0fe80c1563e4a70.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Offline Training Pipeline (TF-IDF + Logistic Regression) - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-c3c1d6b5221c4873b5f8bfc021746d4d.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-f527f3360bdc4ea29feeee95733fb065.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Monitoring &amp; Evaluation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-061c891a4e7d42f799ddeed372db9789.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Logistic Regression Model) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-3d17fe6dfa2a4043ab656006daee2d54.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - TF-IDF Vectorizer) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-b25e68832a084914b83fd6b404f5a29c.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Training Pipeline - Synthetic Tickets Dataset) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-3d28136b876449f4ab9facfaa8829b58.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Training Pipeline - Synthetic Tickets Dataset) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-da3bfc8384b446f0a42f8d02b8140153.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Training Pipeline - TF-IDF Vectorizer) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-fe39cece9c594a62bac0043ea936dd3d.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Training Pipeline - Logistic Regression Model) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-d5df5a126d8a416a909022b429e011b3.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(TF-IDF Vectorizer - Model Artifacts) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-ed2d6c56f0184f03812c4e042d2f0ebc.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Logistic Regression Model - Model Artifacts) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-758ec27d747c4db999428700edee5891.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(Training Pipeline - Monitoring &amp; Evaluation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-89e03bd6296d4aab888ffec695eb0d62.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(TF-IDF Vectorizer - Model Artifacts) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-3b34384b53b7423b98029696ac46492d.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Logistic Regression Model - Model Artifacts) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-0b304f878a184cf5ba1041710717899d.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Online Inference + Event Queue Simulation - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-44435d3946a74400a2564e696dde4da1.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Online Inference + Event Queue Simulation - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-2a7863551eeb4364a152386e6d68fad3.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - CLI / Simple API) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-f76b95943dff424d93dd573b510c33f5.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Event Bus) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-a0f73c3dd6c04c31b736fc711d826e1f.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Inference Service) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-0cfb15a97c8a45afb3f2612404f681cc.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Monitoring &amp; Evaluation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-c057f72a39bd40658098d13977a9aadb.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Classification Event) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-acf0b0a1cd7f4c0fbdd3e1cc8fa61cd7.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-e9fcef5d7f644da6a1a3d0043547136d.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Model Artifacts) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-3dcd704dac5c4e6c8c741824cd14ef5b.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Ticket Text) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-7e7d81b2a59442248a4c4514324aa614.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(CLI / Simple API - Inference Service) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-c8b2ca5ef7374f54a0ab1a3ca66a2890.html" target="element">
+															<span class="i18n-elementtype-FlowRelationship"></span>
+														(Event Bus - Monitoring &amp; Evaluation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-8c1fd026ff1a43b29a97536a83d85201.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Inference Service - Model Artifacts) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-5f3dbdcbb1d64a52b8792dffb83c8978.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Ticket Text) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-d6c525873cb4487aacf0e9c00fbd3681.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Monitoring &amp; Evaluation Outputs - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-2360cf295607441b85511f1afd24f1af.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Monitoring &amp; Evaluation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-e4412c9d2fd3433fbc625317f28c676d.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Monitoring &amp; Evaluation Outputs - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-3d54d880df374d1287d04748b4066385.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Classification Event) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-9f6dd0ccbffe456e87e8a64847b186de.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-149a24abe01e4d1e8ec5019a60c3adcd.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Classification Events (TICKET_CLASSIFIED)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-315f449734d444618d33ca32a7cf2252.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-f6cd93a1184b413fa6e7bead17c37fa4.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Classification Event) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-9f1edd1d53d54fbcb9b8fd42f1a541cf.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Metrics (Acc/Prec/Rec/F1)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-9447dbafc74d4e9488b15892dfc17db8.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Confusion Matrix) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-a3f2bf7ecaa048cb933b43c2434735fd.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Daily High-Priority Count) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-0f5946063e6e4b83b8c8db79f15475db.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Drift Signal (Confidence Trend)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-dd2a492ea4cd45c78cd8ec34fec0f763.html" target="element">
+															<span class="i18n-elementtype-SpecializationRelationship"></span>
+														(Classification Event - Metrics (Acc/Prec/Rec/F1)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-4bb6fce9b3fb498ba1a78a6daf72ee50.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Monitoring &amp; Evaluation - Metrics (Acc/Prec/Rec/F1)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-31dd62b785ca4d8999447869ce85bf1a.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Monitoring &amp; Evaluation - Confusion Matrix) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-cba74267d1ca40f487ae9550a7fa62da.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Monitoring &amp; Evaluation - Daily High-Priority Count) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-28adb73939c44d31b15d28dcd94d4bb5.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(Monitoring &amp; Evaluation - Drift Signal (Confidence Trend)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-bd7ff2de13564fb581ca078e7ca340fc.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Metrics (Acc/Prec/Rec/F1) - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-9bd6aef64e0740ac8c2b0c0fc89005fd.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Confusion Matrix - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-aeee757ff6cc47b39e986b80be9c87b2.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Daily High-Priority Count - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-36754ffcc3184afc8e116c5d38be45f0.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Drift Signal (Confidence Trend) - Metrics / Logs) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-73966c549fa34250ace540987ec25f01.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Classification Events (TICKET_CLASSIFIED) - Metrics (Acc/Prec/Rec/F1)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-2d4e45dbf9b14437b6869690ad6d0f64.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Requirements &#8594; Components &#8594; Deliverables (SDLC/JIRA Traceability) - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-0da1547fedd9420cbf34276810ca8bee.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - R1 Generate 200&#8211;500 synthetic tickets) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-fc2c33ab2396445d854a07bcb8712949.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - R2 Train TF-IDF + Logistic Regression) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-157048e016774f82818465dded297bc8.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - R3 Inference outputs category/priority/confidence) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-ffc7ca538f40407f9b348516cf77e7dc.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - R4 Event queue simulation (queue.Queue)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-e26515862bdd4d6ca5782beae4cbe8c1.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - R5 Monitoring: metrics + confusion matrix + daily high-priority + drift) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-c44271d4fda849039e4037a3920e1a3f.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Requirements &#8594; Components &#8594; Deliverables (SDLC/JIRA Traceability) - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-55cf5b8bdf594367a3742fdde341b125.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Data Generation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-66cae0d4ed9b43a596ce4f52eb1f0cb8.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Event Bus) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-aeffa738bf914957b460e633d37953c1.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Inference Service) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-9dd6fb70479f4d4083254b0073d3a1d1.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Monitoring &amp; Evaluation) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-95a7ddf68453439f850291cc551b5ead.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - Training Pipeline) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-0235b06b71c147a797d9638da80e8a19.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														(Requirements &#8594; Components &#8594; Deliverables (SDLC/JIRA Traceability) - ) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-5c4dfaa95aa54328a163c5b9173a346c.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - D1 dataset.csv/json) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-fe5032caf7664aec95cb163bd655db0c.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - D2 model.pkl) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-cd10163add13442cb842db61dd0bd4cb.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - D3 vectorizer.pkl) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-c84bb17945774d82b3bbb0c982cc344d.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - D4 metrics.json/csv + confusion matrix) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-b6b045fa4b384f02bd150b92ca5bdc51.html" target="element">
+															<span class="i18n-elementtype-CompositionRelationship"></span>
+														( - D5 evaluation report (1&#8211;2 pages)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-27e44f5a5302417ebabae549df2dbeb2.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Data Generation - D1 dataset.csv/json) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-4d7979d06e3f4fc7ae37871030402cf2.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Training Pipeline - D2 model.pkl) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-c32d8c017dab4730a89f252e4ec0effb.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Training Pipeline - D3 vectorizer.pkl) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-fb4eaa115e474900a51c5ad461bf4177.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Monitoring &amp; Evaluation - D4 metrics.json/csv + confusion matrix) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-f8d1fe7197cf44bf814b70d88569031f.html" target="element">
+															<span class="i18n-elementtype-RealizationRelationship"></span>
+														(Data Generation - R1 Generate 200&#8211;500 synthetic tickets) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-979cf199a89e4933a76c25f405fe5860.html" target="element">
+															<span class="i18n-elementtype-RealizationRelationship"></span>
+														(Training Pipeline - R2 Train TF-IDF + Logistic Regression) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-02f6a6588d15415baef0a266aa0a4bf1.html" target="element">
+															<span class="i18n-elementtype-RealizationRelationship"></span>
+														(Event Bus - R3 Inference outputs category/priority/confidence) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-fdc3a58f0e624dafa4704555a27ad751.html" target="element">
+															<span class="i18n-elementtype-RealizationRelationship"></span>
+														(Inference Service - R3 Inference outputs category/priority/confidence) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-16b30beb88f34709ab626e78c6a40a6d.html" target="element">
+															<span class="i18n-elementtype-RealizationRelationship"></span>
+														(Event Bus - R4 Event queue simulation (queue.Queue)) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-3ebf6e87c90d4c60b04fcd7bc6050eb1.html" target="element">
+															<span class="i18n-elementtype-RealizationRelationship"></span>
+														(Monitoring &amp; Evaluation - R5 Monitoring: metrics + confusion matrix + daily high-priority + drift) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-ea000676eb564d3b87ad6c9327435cb3.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(CLI / Simple API - Ticket Text) 
+													</a></li>
+													<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/elements/id-b762a3534d0e4a11855be77ccf614ace.html" target="element">
+															<span class="i18n-elementtype-AssociationRelationship"></span>
+														(Monitoring &amp; Evaluation - D5 evaluation report (1&#8211;2 pages)) 
+													</a></li>
+
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="tree-folder "><span class="i18n-views"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+							<ul>
+											<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/views/id-d5c5a69fdb544680bf7f8d740333e83d.html" target="view"> V1_Layered_Overview </a></li>
+											<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/views/id-962cb6fb4ffb4f989904b25257a9d766.html" target="view"> V2_Training_Flow </a></li>
+											<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/views/id-fef4afcff6294427bb68649aef15d90e.html" target="view"> V3_Inference_EventBus_Flow </a></li>
+											<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/views/id-5cb39d44d7a648e6977c19e3bbf903a7.html" target="view"> V4_Monitoring_Metrics </a></li>
+											<li class="tree-element "><a href="id-7e9aeda1223c43deb913b8766a2be313/views/id-b9886f8894b74ed68d920384a63de9ef.html" target="view"> V5_SDLC_JIRA_Trace </a></li>
+
+							</ul>
+						</li>
+					<!-- END OF STRINGTEMPLATE CODE -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- START ABOUT MODAL DIALOG -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+					<h4 class="modal-title i18n-about"></h4>
+				</div>
+				<div class="modal-body">
+					<p><strong> <span class="i18n-about-pluginname"></span></strong></p>
+					<p><span class="i18n-about-pluginversion"></span></p>
+					<p><span class="i18n-about-plugintext1"></span></p>
+					<p><span class="i18n-about-plugintext2"></span></p>
+					<p><a href="https://www.archimatetool.com" target="_blank">Archi®</a> <span class="i18n-about-plugintext3"></span></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default i18n-close" data-dismiss="modal"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END ABOUT MODAL DIALOG -->
+
+	<!-- START HINT MODAL DIALOG -->
+	<div class="modal fade first-load" id="myModalHint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button>
+						<h4 class="modal-title i18n-hint"></h4>
+				</div>
+				<div class="modal-body">
+						<iframe id="frame-hint" name="hint" onload="if($('#myModalHint').hasClass('first-load')) $('#myModalHint').removeClass('first-load'); else $('#myModalHint').modal({show:true});"></iframe>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default i18n-close" data-dismiss="modal"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END HINT MODAL DIALOG -->
+</body>
+</html>

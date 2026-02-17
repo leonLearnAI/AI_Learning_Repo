@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env
+.env
+
+# Data (avoid large or copyrighted text in public repo)
+data/raw/
+data/processed/
+
+# Outputs
+results/
+logs/
+
+# OS
+.DS_Store

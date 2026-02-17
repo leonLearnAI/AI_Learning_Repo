@@ -1,0 +1,61 @@
+Requirements
+	•	Python 3.9+ (recommended)
+	•	Packages: pandas, scikit-learn
+
+Install:
+
+pip install -r requirements.txt
+
+
+⸻
+
+Quick Start
+
+1) Generate synthetic dataset
+
+python src/data_generation.py
+
+Output:
+	•	data/tickets.csv
+
+2) Train baseline model
+
+python src/train_model.py
+
+Outputs:
+	•	models/model.pkl
+	•	models/vectorizer.pkl
+
+3) Run inference (example)
+
+python src/inference_service.py
+
+4) Run monitoring & export evaluation outputs
+
+python src/monitoring.py
+
+Outputs:
+	•	outputs/metrics.json
+	•	outputs/confusion_matrix.csv
+	•	outputs/high_priority_daily.csv
+	•	outputs/drift_confidence_daily.csv
+
+5) Run end-to-end demo (event queue simulation)
+
+python src/demo.py
+
+
+⸻
+
+Notes
+	•	Very high scores are expected on synthetic data due to pattern-based generation.
+	•	Failure cases are demonstrated using ambiguous or mixed-intent ticket text.
+
+⸻
+
+Deliverables 
+	•	Architecture (ArchiMate views)
+	•	Jira plan (Epics/Tasks)
+	•	Code (this repository)
+	•	Testing & Evaluation Report (PDF)
+
